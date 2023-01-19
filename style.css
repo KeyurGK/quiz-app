@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Poppins:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
+*{
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:black;
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    min-height:100vh;
+}
+.quiz-container{
+   
+    color:white;
+    border:1px solid white;
+    padding:10px;
+    width:400px;
+    background-color:rgb(243, 48, 9);
+    box-shadow:5px 5px 1px rgb(16, 162, 225); 
+}
+.quiz-container ul{
+    list-style: none;
+    padding:0;
+}
+.quiz-container ul li{
+    margin-top:10px;
+}
+.quiz-container .submitBtn{
+    background-color:rgb(238, 250, 4);
+    border:1px solid;
+    padding:10px 100px;
+    box-shadow:5px 5px 1px rgb(0, 0, 0); 
+    margin-left:70px;
+    margin-top:30px;
+    margin-bottom:10px;
+    text-transform: uppercase;
+    transition:transform 0.2s;
+}
+.quiz-container .submitBtn:hover{
+    cursor:pointer;
+    transform:translate(-1px, -1px);
+}
